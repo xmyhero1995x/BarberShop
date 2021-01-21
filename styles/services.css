@@ -1,0 +1,92 @@
+.services {
+    background-image: url("/img/mignon-hemsley.png");
+    background-repeat: no-repeat;
+    Width: 100%;
+    Height: 718px;
+    margin-top: 88px;
+}
+
+.services__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services__title {
+    margin-top: 72px;
+}
+
+.services__bg-second {
+    background-color: var(--sixColor);
+    opacity: 0.8;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 44px;
+}
+
+.services__types-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 100px 0;
+
+}
+
+.services__types {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.services__container-img {
+    margin-right: 10px;
+}
+
+.services__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.service__list-name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.service__list-time {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.service__list-price {
+    display: flex;
+    flex-direction: row;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.service__list-price b {
+}
+
+.services__types-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.services__types-box>.services__types:nth-child(2) {
+    margin: 60px 0 0 0;
+}
+
+.services__list {
+    color: var(--fourColor);
+}

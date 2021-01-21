@@ -1,0 +1,37 @@
+.home {
+    background: url("/img/allef-vinicius.png") top left/cover no-repeat;
+    margin-top: 99px;
+    width: 100%;
+    display: flex;
+}
+
+.home__discription {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 209px;
+    margin-bottom: 311px;
+}
+
+.home__discription-container {
+    display: flex;
+}
+
+.home__discription-text {
+    display: flex;
+    width: 601px;
+    margin-top: 73.21px;
+}
+
+.home__discription-text p {
+    color: var(--fourColor);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.home__button-second {
+    margin-top: 44px;
+}
