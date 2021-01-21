@@ -1,5 +1,5 @@
 .home {
-    background: url("/img/allef-vinicius.png") top left/cover no-repeat;
+    background: url("./img/allef-vinicius.png") top left/cover no-repeat;
     margin-top: 99px;
     width: 100%;
     display: flex;
