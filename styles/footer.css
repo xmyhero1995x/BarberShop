@@ -9,7 +9,6 @@ footer {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    text-transform: uppercase;
     color: var(--thirdColor);
 }
 
@@ -19,6 +18,7 @@ footer {
     justify-content: space-between;
     align-items: flex-start;
     margin: 44px 0 170px 0;
+    width: 100%;
 }
 
 .footer__logo {
@@ -32,21 +32,34 @@ footer {
 .footer__menu {
     display: flex;
     margin: 0 300px 0 0;
-} 
+}
 
 .footer_menu__list {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 20px;
 }
 
+.footer_menu__list :nth-child(-n+5) {
+    width: 90px;
+}
+
+.footer_menu__list li:hover {
+    list-style-image: url(../img/Ellipse.png);
+}
+
+
 .footer_menu__item a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
     color: var(--thirdColor);
+    white-space: nowrap;
+
 }
 
 .footer_menu__item:nth-child(-n+5) {
@@ -54,32 +67,59 @@ footer {
 }
 
 .footer_menu__item :hover {
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
     color: var(--secondColor);
-    
-    list-style: disc;
+
 }
 
 .footer__information {
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 .footer__contuct-us {
     display: flex;
     flex-direction: column;
+    margin: 0 64px 0 0;
 }
+
+.footer__contuct-us h3 {
+    margin: 0 0 32px 0;
+}
+
+.footer__contuct-us :nth-child(2) {
+    margin: 0 0 24px 0;
+}
+
+.footer__visit-us {
+    display: flex;
+    flex-direction: column;
+    margin: 0 64px 0 0;
+}
+
+.footer__visit-us :nth-child(2) {
+    margin: 0 0 24px 0;
+}
+
+.footer__visit-us h3 {
+    margin: 0 0 32px 0;
+}
+
 .footer__follow-us {
     display: flex;
     flex-direction: column;
 }
+
+.footer__follow-us h3 {
+    margin: 0 0 32px 0;
+}
+
 .footer__container-media {
     display: flex;
     flex: row;
+}
+
+.footer__container-media a :nth-child(-n+3) {
+    margin: 0 13px 0 0;
 }

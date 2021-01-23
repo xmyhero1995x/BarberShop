@@ -16,11 +16,17 @@
     --fourColor: #FFF1E3;
     --fiveColor: #FFF2E5;
     --sixColor: #000000;
+    --sevenColor: #C4C4C4;
+    --eightColor: #3D3A37;
 }
 
 
 * {
     box-sizing: border-box;
+}
+
+body {
+    width: 100%;
 }
 
 body,

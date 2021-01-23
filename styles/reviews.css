@@ -2,8 +2,7 @@
     display: flex;
     flex-direction: column;
     margin: 174px 0 0 0;
-    background-image: url(../img/arthur-humeau.png);
-    background-repeat: no-repeat;
+    background: url(../img/arthur-humeau-opacity.jpg) no-repeat;
     width: 100%;
 }
 
@@ -11,8 +10,6 @@
 .reviews__bg {
     display: flex;
     flex-direction: column;
-    background-color: var(--sixColor);
-    opacity: 0.8;
 }
 
 
@@ -60,13 +57,13 @@
     margin: 0 4px 0 0;
 }
 
-.photo-first {}
 
-.photo-second {}
-
-.photo-third {}
-
-.photo-fourth {}
+/* Рамка */
+/* .photo-second {
+    width: 198px;
+    height: 326px;
+    background: url(../img/Rectangle.png) center right no-repeat;
+} */
 
 .reviews__arrow-right {
     display: flex;
@@ -89,6 +86,10 @@
     font-weight: bold;
     font-size: 32px;
     color: var(--secondColor);
+}
+
+.reviews__discription-text {
+    margin: 24px 0 0 0;
 }
 
 .reviews__discription-text p {
