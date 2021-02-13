@@ -10,15 +10,21 @@
     flex-direction: column;
     justify-content: center;
     background-color: var(--thirdColor);
-    width: 100%;
     border: 10px solid var(--thirdColor);
-    margin: 127px 649px 128px 309px;
+    margin: 63px 649px 128px 63px;
     padding: 64px 126px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: var(--firstColor);
 }
 
 .form__title {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: 100%;
 }
 
 .form__title p:nth-child(1) {
@@ -36,10 +42,117 @@
     font-weight: normal;
     font-size: 16px;
     text-align: center;
+    margin: 32px 0 64px 0;
 }
 
 .form__box {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+.form__box span {
+    margin: 0 0 8px 24px;
+}
+
+.label-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-border {
+    border: 1px solid var(--nineColor);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 16px 24px;
+}
+
+input {
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+input:focus {
+    outline: none;
+}
+
+.form__box_client-information {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__box_client-name {
+    display: flex;
+    flex-direction: row;
+}
+.form-name {
+    width: 100%;
+}
+
+.form__box_client-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 24px 0 24px 0;
+}
+.form-time {
+    margin: 0 24px 0 0;
+}
+
+.form__masters-title {
+    display: flex;
+    margin: 0 0 8px 24px;
+}
+
+.form__masters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 24px 0;
+    border: 1px solid var(--nineColor);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 16px 24px;
+}
+
+.form__masters_column-first {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__masters_column-second {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__services-title {
+    display: flex;
+    margin: 0 0 8px 24px;
+}
+
+.form__services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid var(--nineColor);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 16px 24px;
+}
+
+.form__services_column-first {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__services_column-second {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="checkbox"] {
+    background-color: yellow;
+    color: yellow;
 }

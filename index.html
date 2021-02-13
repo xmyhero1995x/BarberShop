@@ -199,28 +199,114 @@
                     <p>Please Complete all these fields</p>
                 </div>
                 <div class="form__box">
-                    <div class="form__box-client-information">
-                        <form action="/">
-                            <label for="">
-                                <span>Name</span>
-                                <input type="text" name="Name" required placeholder="" maxlength="10">
-                            </label>
-                        </form>
-                        <form action="/">
-                            <label for="">
-                                <span>Date</span>
-                                <input type="date" name="Date" required placeholder="">
-                            </label>
-                        </form>
-                        <form action="/">
-                            <label for="">
-                                <span>Time</span>
-                                <input type="time" name="Time" required placeholder="">
-                            </label>
-                        </form>
+                    <div class="form__box_client-information">
+                        <div class="form__box_client-name">
+                            <form action="/" class="form-name">
+                                <label for="" class="label-column">
+                                    <span>Name</span>
+                                    <div class="form-border">
+                                        <input type="text" name="Name" required placeholder="Gregory Simmmons"
+                                            maxlength="20">
+                                    </div>
+                                </label>
+                            </form>
+                        </div>
+                        <div class="form__box_client-time">
+                            <form action="/" class="form-time">
+                                <label for="" class="label-column">
+                                    <span>Date</span>
+                                    <div class="form-border">
+                                        <input type="text" name="Date" required placeholder="Enter date" maxlength="20">
+                                    </div>
+                                </label>
+                            </form>
+                            <form action="/">
+                                <label for="" class="label-column">
+                                    <span>Time</span>
+                                    <div class="form-border">
+                                        <input type="text" name="Time" required placeholder="Enter time" maxlength="10">
+                                    </div>
+                                </label>
+                            </form>
+                        </div>
                     </div>
-                    <div class="form__box-master-information">
-
+                    <div class="form__masters-title">
+                        <p>Choose master</p>
+                    </div>
+                    <div class="form__masters">
+                        <div class="form__masters_column-first">
+                            <form action="/">
+                                <label for="">
+                                    <input type="radio" name="Master-1" value="Master 1">
+                                    <span>Choose something</span>
+                                </label>
+                            </form>
+                            <form action="/">
+                                <label for="">
+                                    <input type="radio" name="Master-2" value="Master 2">
+                                    <span>Choose something</span>
+                                </label>
+                            </form>
+                        </div>
+                        <div class="form__masters_column-second">
+                            <form action="/">
+                                <label for="">
+                                    <input type="radio" name="Master-3" value="Master 3">
+                                    <span>Choose something</span>
+                                </label>
+                            </form>
+                            <form action="/">
+                                <label for="">
+                                    <input type="radio" name="Master-4" value="Master 4">
+                                    <span>Choose something</span>
+                                </label>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="form__services-title">
+                        <p>Choose service</p>
+                    </div>
+                    <div class="form__services">
+                        <div class="form__services_column-first">
+                            <form action="/">
+                                <label for="">
+                                    <input type="checkbox" name="Service-1" value="service-1" style="background-color: yellow">
+                                    <span>Choose something</span>
+                                </label>
+                            </form>
+                            <form action="/">
+                                <label for="">
+                                    <input type="checkbox" name="Service-2" value="service-2">
+                                    <span>Choose something</span>
+                                </label>
+                            </form>
+                            <form action="/">
+                                <label for="">
+                                    <input type="checkbox" name="Service-3" value="service-3">
+                                    <span>Choose something</span>
+                                </label>
+                            </form>
+                        </div>
+                        <div class="form__services_column-second">
+                            <form action="/">
+                                <label for="">
+                                    <input type="checkbox" name="Service-4" value="service-4">
+                                    <span>Choose something</span>
+                                </label>
+                            </form>
+                            <form action="/">
+                                <label for="">
+                                    <input type="checkbox" name="Service-5" value="service-5">
+                                    <span>Choose something</span>
+                                </label>
+                            </form>
+                            <form action="/">
+                                <label for="">
+                                    <input type="checkbox" name="Service-6" value="service-6">
+                                    <span>Choose something</span>
+                                </label>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -467,7 +553,8 @@
             </div>
         </div>
     </footer>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="script.js"></script>
 </body>
 
 </html>
